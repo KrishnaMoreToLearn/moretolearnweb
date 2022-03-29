@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+    <head>
+        <title>Registration Form</title>
+        <link rel="icon" href="https://www.linkpicture.com/q/IMG_20210831_060528067_3.png"/>
+        <style>
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background: url("https://www.linkpicture.com/q/bg_2.jpeg");
+  background-size: 300%;
+  background-repeat: repeat;
+}
+img.img1{
+  width:1000px;
+}
+div.main{
+  width: 420px;
+  margin: 100px auto 0px auto;
+}
+h1{
+  text-align: center;
+  padding: 20px;
+  font-family: Sans-Serif;
+}
+div.register{
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.3);
+  box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+  color: #fff;
+}
+form#register{
+  margin:40px;
+}
+lable{
+  font-family: Sans-Serif;
+  font-size: 18px;
+  font-style: italic;
+}
+input#name{
+  width: 320px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  outline: 0;
+  padding: 3px;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+input#number{
+  width: 320px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  outline: 0;
+  padding: 3px;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+input#email{
+  width: 320px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  outline: 0;
+  padding: 3px;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+  input#class{
+  width: 320px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  outline: 0;
+  padding: 3px;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+input#date{
+  width: 320px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  outline: 0;
+  padding: 3px;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+input#submit{
+  width: 80%;
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: rgba(255,100,0,0.8);
+  font-weight: 600;
+  font-family: Sans-Serif;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+  margin: 30px;
+}
+lable,h1,span{
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.3)
+}
+</style>
+    </head>
+    <body>
+      <img class="img1" width="fit" height="auto" src="img1.png" alt="">
+      <div class="main">
+        <div class="register">
+<form action="https://formspree.io/f/mlezlvje" method="POST" id="register" name="register" class="register">
+          <h1 width="100%">Register To <br>More To Learn</h1>
+            <marquee>Fill all required fields    |    More To Learn    |  <a href="index.html">Subscribe to our newsletters</a>   |    <a href="index3.html"> Visit our Website </a></marquee>
+            <br>
+          <lable>Name</lable>
+          <br>
+          <input type="name" placeholder="Name" id="name" name="Name" required="">
+          <br><br>
+          <lable>Phone number</lable>
+          <br>
+          <input type="number" placeholder="Your Phone number" id="number" name="Phone Number" required="">
+          <br><br>
+          <lable>Email</lable>
+          <br>
+          <input type="email" name="Email ID" id="email" placeholder="Enter your Valid Email Id" required="">
+          <br><br>
+          <lable>Class</lable>
+          <br>
+          <select id="class" name="Class" required="">
+            <option>1 class</option>
+            <option>2 class</option>
+            <option>3 class</option>
+            <option>4 class</option>
+            <option>5 class</option>
+            <option>6  class</option>
+            <option>7 class</option>
+            <option>8 class</option>
+            <option>9 class</option>
+            <option>10 class</option>
+          </select>
+          <br><br>
+          <lable>Gender</lable>
+          <br>
+          <input type="radio" id="gender" name="gender" value="male">
+          <span id="gender" name="male">Male</span>
+          <input type="radio" id="gender" name="gender" value="female">
+          <span id="gender" name="female">Female</span>
+          <br><br>
+          <lable>Date of birth</lable>
+          <br>
+          <input type="date" id="date" name="Date of Birth" placeholder="Date of birth" required="">
+          <br><br>
+          <input type="submit" id="submit" value="submit">
+          </form>
+        </div>
+      </div>
+    </body>
+</html>
